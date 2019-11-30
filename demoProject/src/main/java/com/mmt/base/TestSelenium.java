@@ -8,6 +8,7 @@ public class TestSelenium {
 		System.setProperty("webdriver.chrome.driver", "./src/test/resources/executables/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.makemytrip.com/");
+		driver.manage().window().maximize();
 
 	}
 
