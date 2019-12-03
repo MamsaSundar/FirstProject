@@ -28,7 +28,7 @@ public class BasePage {
 		
 		*/
 	
-	@Test
+	
 	public void readConfig() {
 		try {
 			fis = new FileInputStream(System.getProperty("user.dir")+ "./src/test/resources/properties/Config.properties");
